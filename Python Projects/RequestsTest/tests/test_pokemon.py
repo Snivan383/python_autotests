@@ -1,7 +1,7 @@
 import pytest
 import requests
 url='https://api.pokemonbattle.ru/v2'
-trainer_id=36124
+trainer_id=тут_айди_трейнера
 def test_status_code():
     responce=requests.get(url=f'{url}/trainers')
     assert responce.status_code==200
