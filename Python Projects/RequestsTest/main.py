@@ -1,6 +1,6 @@
 import requests
 url='https://api.pokemonbattle.ru/v2'
-token='0aa22f970177eed3f1c68c861d826f2e'
+token='TRAINER_TOKEN'
 hader={'content_type': 'application/json', 'trainer_token': token}
 body_create={
     "name": "Бульбазавр",
